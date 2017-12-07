@@ -4,7 +4,7 @@ int main()
 {
 	double Da = 1, Db = 1, Dab = Da / Db;
 	
-		int Ni = 100, Nj = 200, Nk = 4000, l = 1000, t = 3000;
+		int Ni = 100, Nj = 200, Nk = 4000, l = 1000, t = 30000;
 		double h = 2 * static_cast<double>(l) / static_cast<double>(Ni), tau = static_cast<double>(t) / static_cast<double>(Nk);
 		double gamma = tau / pow(h, 2), hSquared = pow(h, 2);
 		double ***C, ***D;
